@@ -17,7 +17,7 @@ New-Environment Production
 
 # Customize web site details for web application deployment:
 
-Set-WebsiteRole appveyortest "KatanaTest" `
+Set-WebsiteRole $projectName "KatanaTest" `
     -BasePath "C:\www\katanatest" `
     -WebsiteName "KatanaTest" `
     -WebsiteProtocol http `
