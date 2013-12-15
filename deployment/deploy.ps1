@@ -11,6 +11,15 @@ Param (
     $projectBuildNumber
 )
 
+Write-Output $scriptPath
+Write-Output $buildFolder
+Write-Output $srcFolder
+Write-Output $outFolder
+Write-Output $tempFolder
+Write-Output $projectName
+Write-Output $projectVersion
+Write-Output $projectBuildNumber
+
 # list all artifacts
 foreach($artifact in $artifacts.values)
 {
