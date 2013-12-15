@@ -11,6 +11,8 @@ Param (
     $projectBuildNumber
 )
 
+Set-PSDebug -Trace 1
+
 Write-Output "Deployment parameters:"
 Write-Output $scriptPath
 Write-Output $buildFolder
@@ -48,10 +50,12 @@ $scriptsPath = Split-Path -Parent $MyInvocation.MyCommand.Definition
 $environment = $variables.Environment
 if($environment)
 {
-    Write-Host "Deploying to environment: $environment"
+    
 
     # does specified environment exist?
     Get-Environment -Name $environment | Out-Null
+
+	Write-Host "Deploying $projectName $projectVersion to environment: $environment "
 
     # deploy AppRolla application
     New-Deployment $projectName $projectVersion -To $environment
