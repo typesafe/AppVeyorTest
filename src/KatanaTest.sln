@@ -5,6 +5,13 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KatanaTest", "KatanaTest\KatanaTest.csproj", "{B198A724-11CB-48DA-8129-347D4D3E08E6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "deployment", "deployment", "{0E4E029D-F3D5-4586-8B95-902E61381CF1}"
+	ProjectSection(SolutionItems) = preProject
+		..\deployment\configure.ps1 = ..\deployment\configure.ps1
+		..\deployment\deploy.ps1 = ..\deployment\deploy.ps1
+		..\deployment\project.ps1 = ..\deployment\project.ps1
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
