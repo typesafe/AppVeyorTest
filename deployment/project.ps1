@@ -17,9 +17,9 @@ New-Environment Production
 
 # Customize web site details for web application deployment:
 
-Set-WebsiteRole $projectName "Katana" `
+Set-WebsiteRole $projectName "KatanaTest" `
     -BasePath "C:\www\katanatest" `
-    -WebsiteName "Katana" `
+    -WebsiteName "KatanaTest" `
     -WebsiteProtocol http `
     #-WebsiteIP <ip> `
     -WebsitePort 80 `
