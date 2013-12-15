@@ -11,8 +11,6 @@ Param (
     $projectBuildNumber
 )
 
-Set-PSDebug -Trace 1
-
 Write-Output "Deployment parameters:"
 Write-Output $scriptPath
 Write-Output $buildFolder

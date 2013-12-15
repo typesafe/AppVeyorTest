@@ -27,7 +27,7 @@ namespace KatanaTest
             app.Run(context =>
             {
                 PrintCurrentIntegratedPipelineStage(context, "3rd MW");
-                return context.Response.WriteAsync("Hello world");
+                return context.Response.WriteAsync("Hello world - updated!");
             });            
         }
         private void PrintCurrentIntegratedPipelineStage(IOwinContext context, string msg)
