@@ -21,9 +21,7 @@ Set-WebsiteRole $projectName "KatanaTest" `
     -BasePath "C:\www\katanatest" `
     -WebsiteName "KatanaTest" `
     -WebsiteProtocol http `
-    #-WebsiteIP <ip> `
     -WebsitePort 80 `
-	# -WebsiteHost <your-domain> `
 
 # Customize Windows service details:
 
