@@ -1,0 +1,6 @@
+box: wercker-labs/windows
+build:
+  steps:
+    - wercker-labs/msbuild:
+        configuration: Release
+        
