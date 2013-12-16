@@ -1,4 +1,5 @@
 box: typesafe/windows-vs2013@0.0.2
+
 build:
   steps:
     - wercker-labs/msbuild:
