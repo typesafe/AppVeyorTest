@@ -2,5 +2,6 @@ box: wercker-labs/windows
 build:
   steps:
     - wercker-labs/msbuild:
+        solution: .\src\katanatest.sln
         configuration: Release
         
