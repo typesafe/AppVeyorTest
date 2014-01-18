@@ -2,4 +2,4 @@ language: csharp
 csharp:
      - dotNet45
 build_environment: win2012
-before_install: msbuild src\KatanaTest.sln
+script: msbuild src\KatanaTest.sln
