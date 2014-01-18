@@ -1,4 +1,4 @@
-box: typesafe/windows-vs2012@0.0.1
+box: megax/windows-vs2012@0.0.1
 
 build:
   steps:
